@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  background-color: #f4f1e8;
+  color: #26352b;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding: 20px;
+  color: white;
+  background-color: #285943;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.intro {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.buton,
+button {
+  display: inline-block;
+  padding: 12px 20px;
+  color: white;
+  background-color: #285943;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.buton:hover,
+button:hover {
+  background-color: #193c2c;
+}
+
+.locuri {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.locuri article {
+  display: inline-block;
+  width: 300px;
+  margin: 12px;
+  padding: 15px;
+  vertical-align: top;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.locuri img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 15px;
+  color: white;
+  background-color: #285943;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .intro {
+    margin: 25px 15px;
+  }
+
+  .locuri article {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .locuri img {
+    max-width: 100%;
+  }
+}
